@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+     android:layout_width = "fill_parent"
+     android:layout_height = "fill_parent"
+     xmlns:myapp="http://schemas.android.com/apk/res/ru.nsu.vtimofeev.Inkball.activities"
+
+    >
+
+    <android.opengl.GLSurfaceView android:id="@+id/glSurface" android:layout_width="fill_parent"
+                                  android:layout_height="fill_parent"/>
+
+    <com.google.ads.AdView
+            xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            googleads:adSize="BANNER"
+            googleads:adUnitId="@string/admob_id"
+/>
+
+
+</FrameLayout>

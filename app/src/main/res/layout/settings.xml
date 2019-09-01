@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#b7e2f8"
+              android:padding="15dp"
+
+>
+    <ImageView
+            android:id="@+id/settings"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/settings" />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+        <CheckBox android:id="@+id/filtering" android:text="Texture filtering" android:checked="false"
+                  android:layout_margin="12dp"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textColor="#000000"/>
+
+        <CheckBox android:id="@+id/background" android:text="Background" android:checked="false"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:textColor="#000000"/>
+
+        <CheckBox android:id="@+id/hints" android:text="Hints" android:checked="false"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_margin="12dp"
+                  android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+
+<ImageButton android:id="@+id/cancel"
+             android:layout_width="160dp"
+             android:layout_height="40dp"
+             android:layout_margin="10dp"
+      android:background="@drawable/cancel_button"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"/>
+
+
+
+<ImageButton android:id="@+id/save"
+     android:layout_width="160dp"
+     android:layout_height="40dp"
+     android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/save_button"/>
+
+
+
+</RelativeLayout>
