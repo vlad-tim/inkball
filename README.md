@@ -3,7 +3,7 @@
 ## Overview
 
 ### Description
-I wrote and published it as an Android game in 2013-2014. I was inspired by the game included in Windows
+I wrote and published it as an Android game in 2012-2013. I was inspired by the game included in Windows
 Vista distributions https://en.wikipedia.org/wiki/InkBall and decided to port it on Android because the natural mechanic
 of Inkball makes it much more fun to play on touchscreens instead of on a typical Windows PC using computer mouse.
 
